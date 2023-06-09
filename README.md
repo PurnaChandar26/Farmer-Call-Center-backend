@@ -1,119 +1,40 @@
-# Krashak.AI
-> Problem Statement (AGRI12)
+Farmer Call Center Backend
+==========================
 
+This repository contains the backend code for the Farmer Call Center application, an AI-based voice-assisted contact center designed to assist farmers with their problems. Farmers can log their problems through phone calls, SMS, or the website, and in return, an automated voice response provides the farmers with the most appropriate solutions for their problems.
 
-AI-based voice-assisted Contact Center for assisting Farmers for their problems. Farmers can log their problems with the contact center thru phone calls / SMS / website and in return an automated voice response can be provided to the farmers with a most appropriate solution for their problems.
+Features
+--------
 
-# UNESCO India - Africa Hackathon
+-   Localization: The system supports localization, allowing farmers to interact in their preferred language.
+-   NLP Algorithm: The application uses a Natural Language Processing (NLP) algorithm and a knowledge base repository to provide the best solutions to farmers' problems.
+-   Crop Recommendation: Farmers can receive recommendations on suitable crops based on their location, soil conditions, and other relevant factors.
+-   Fertilizer Recommendation: The system provides personalized fertilizer recommendations based on crop type, soil analysis, and other factors.
+-   Disease Prediction: Farmers can get predictions on potential diseases affecting their crops, along with preventive measures and treatment suggestions.
+-   Weather Forecasting: The application provides real-time weather forecasting to help farmers make informed decisions about their agricultural activities.
+-   AI Voice Assistance: An AI-powered voice assistant interacts with farmers, understands their queries, and provides appropriate responses using voice-based communication.
+-   Voice SMS in Local Language: Farmers can receive voice-based SMS messages in their local language, ensuring effective communication.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/55245862/205508044-e43024b4-3c92-4ab9-9f6b-e3c6038205a6.jpg" height="200" width="300"></p>
+Technology Stack
+----------------
 
-## Features
+-   Backend: The backend is developed using Flask, a lightweight and flexible Python web framework.
+-   Storage: AWS S3 Bucket is used for storing audio files and other media assets.
+-   SMS Service: Twilio is integrated to handle SMS communication between the contact center and farmers.
+-   IDE: VS Code is recommended as the integrated development environment for working with the backend code.
+-   Design: Figma and Canva are used for designing and creating visual assets.
+-   API Testing & Documentation: Postman is utilized for testing and documenting the backend APIs.
+-   Version Control: Git and GitHub are used for version control and collaborative development.
 
-1. Localization
-2. Provides best solutions to the farmer's problem using NLP algorithm and knowledge base repository.
-3. Crop Recommendation
-4. Fertilizer Recommendation
-5. Disease Prediction
-6. Weather Forcasting
-7. AI Voice Assistance
-8. Voice SMS in local language
+Getting Started
+---------------
 
+To set up the Farmer Call Center backend locally, follow these steps:
 
-## Technology Stack:
+1.  Clone this repository to your local machine.
+2.  Install the necessary dependencies using `pip install -r requirements.txt`.
+3.  Configure your AWS S3 credentials and Twilio API credentials in the appropriate configuration files.
+4.  Start the backend server using `python app.py`.
+5.  Access the API endpoints using the provided documentation and integrate them into your frontend or voice assistant application.
 
-<img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/flask%20-%23092E20.svg?&style=for-the-badge&logo=flask&logoColor=white"/>  <img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img 
-src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img 
-src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white">
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/14143990/2s8YsnYGXi)
-
-
-- **Backend**: Flask
-- **Storage**: AWS S3 Bucket
-- **SMS Service**: Twilio
-- **IDE**: VS Code
-- **Design**: Figma, Canva
-- **API Testing & Documentation**: Postman
-- **Version Control**: Git and GitHub
-
-### How to Get Started?
-#### GitHub Repository Structure
-
-
-| S.No. | Branch Name                                                                  | Purpose                       |
-| ----- | ---------------------------------------------------------------------------- | ----------------------------- |
-| 1.    | [master](https://github.com/rudrakshi99/Farmer-Call-Center/tree/master)      | contains all Frontend code    |
-| 2.    | [backend](https://github.com/rudrakshi99/Farmer-Call-Center/tree/backend)    | contains all Backend code     |
-| 3.    | [ml](https://github.com/rudrakshi99/Farmer-Call-Center/tree/ml)              | contains all ML code          |
-
-### Backend Setup Instructions
-
-- Fork and Clone the repo using
-
-```
-$ git clone https://github.com/rudrakshi99/Farmer-Call-Center.git
-```
-- Checkout to backend branch
-```
-$ cd backend
-```
-
-- Setup Virtual environment
-
-```
-$ python3 -m venv env
-```
-
-- Activate the virtual environment
-
-```
-$ source env/bin/activate
-```
-
-- Install dependencies using
-
-```
-$ pip3 install -r requirements.txt
-```
-
-- Run server using
-
-```
-$ python3 app.py
-```
-
-
-## Team Members:
-
-| S.No. | Name | Role | GitHub Username:octocat: |
-| --------------- | --------------- | --------------- | --------------- |
-| 1. | Rudrakshi (Team Leader) | Frontend Development| [@rudrakshi99](https://github.com/rudrakshi99)  |
-| 2. | Frank Makeba | Frontend Development | [@CutCoders](https://github.com/CutCoders) |
-| 3. | Tony Onkgopotse Richard | Backend Development | [@Onkgopotse007](https://github.com/Onkgopotse007) |
-| 4. | Pedro Anda Ondo Nchama | Backend Development| [@paondonchama](https://github.com/paondonchama)  |
-| 5. | Faremi Saheed | ML Engineer | [@faremi](https://github.com/faremi)  |
-| 6. | Ayushi Saxena | Product Designer | [@ayushisaxena19](https://github.com/ayushisaxena19)  |
-
-## Maintainers✨
-
-<table>
-  <tbody><tr>
-    <td align="center"><a href="https://github.com/rudrakshi99"><img alt="" src="https://avatars.githubusercontent.com/rudrakshi99" width="100px;"><br><sub><b>Rudrakshi</b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/master?author=rudrakshi99" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/faremi"><img alt="" src="https://avatars.githubusercontent.com/faremi" width="100px;"><br><sub><b>Faremi Saheed </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/backend?author=faremi" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/paondonchama"><img alt="" src="https://avatars.githubusercontent.com/paondonchama" width="100px;"><br><sub><b>Pedro Anda Ondo Nchama </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/backend?author=paondonchama" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Onkgopotse007"><img alt="" src="https://avatars.githubusercontent.com/Onkgopotse007" width="100px;"><br><sub><b>Tony Onkgopotse Richard </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/call_api?author=Onkgopotse007" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ayushisaxena19"><img alt="" src="https://avatars.githubusercontent.com/ayushisaxena19" width="100px;"><br><sub><b>Ayushi Saxena  </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/CutCoders"><img alt="" src="https://avatars.githubusercontent.com/CutCoders" width="100px;"><br><sub><b>Frank Makeba </b></sub></a><br><a href="https://github.com/rudrakshi99/Farmer-Call-Center/commits/master?author=CutCoders" title="Code">💻</a></td>
-  </tr>
-</tbody></table>
-
-
-# License :memo:
-
-This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
-
-[![Uses Git](https://forthebadge.com/images/badges/uses-git.svg)](https://github.com/rudrakshi99/Jan-Dhan-Darshak) 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://github.com/rudrakshi99/Jan-Dhan-Darshak)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/rudrakshi99/Jan-Dhan-Darshak)
-[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/rudrakshi99/Jan-Dhan-Darshak.git) [![Built By Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/rudrakshi99/Jan-Dhan-Darshak) 
+For detailed API documentation and usage examples, refer to the [API Documentation](https://chat.openai.com/API_DOCUMENTATION.md) file.
