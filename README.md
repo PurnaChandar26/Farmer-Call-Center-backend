@@ -26,6 +26,23 @@ Technology Stack
 -   API Testing & Documentation: Postman is utilized for testing and documenting the backend APIs.
 -   Version Control: Git and GitHub are used for version control and collaborative development.
 
+## Technology Stack:
+
+<img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/flask%20-%23092E20.svg?&style=for-the-badge&logo=flask&logoColor=white"/>  <img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img 
+src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img 
+src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white">
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/14143990/2s8YsnYGXi)
+
+
+- **Backend**: Flask
+- **Storage**: AWS S3 Bucket
+- **SMS Service**: Twilio
+- **IDE**: VS Code
+- **Design**: Figma, Canva
+- **API Testing & Documentation**: Postman
+- **Version Control**: Git and GitHub
+
 Getting Started
 ---------------
 
