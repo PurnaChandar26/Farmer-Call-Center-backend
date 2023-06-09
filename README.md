@@ -6,14 +6,14 @@ This repository contains the backend code for the Farmer Call Center application
 Features
 --------
 
--   Localization: The system supports localization, allowing farmers to interact in their preferred language.
--   NLP Algorithm: The application uses a Natural Language Processing (NLP) algorithm and a knowledge base repository to provide the best solutions to farmers' problems.
--   Crop Recommendation: Farmers can receive recommendations on suitable crops based on their location, soil conditions, and other relevant factors.
--   Fertilizer Recommendation: The system provides personalized fertilizer recommendations based on crop type, soil analysis, and other factors.
--   Disease Prediction: Farmers can get predictions on potential diseases affecting their crops, along with preventive measures and treatment suggestions.
--   Weather Forecasting: The application provides real-time weather forecasting to help farmers make informed decisions about their agricultural activities.
--   AI Voice Assistance: An AI-powered voice assistant interacts with farmers, understands their queries, and provides appropriate responses using voice-based communication.
--   Voice SMS in Local Language: Farmers can receive voice-based SMS messages in their local language, ensuring effective communication.
+1. Localization
+2. Provides best solutions to the farmer's problem using NLP algorithm and knowledge base repository.
+3. Crop Recommendation
+4. Fertilizer Recommendation
+5. Disease Prediction
+6. Weather Forcasting
+7. AI Voice Assistance
+8. Voice SMS in local language
 
 Technology Stack
 ----------------
